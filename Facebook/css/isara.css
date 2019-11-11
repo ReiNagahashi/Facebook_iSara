@@ -1,0 +1,615 @@
+@charset "UTF-8";
+
+body{
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+  margin:0;
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.whiteBrackets{
+  margin: 0 auto;
+  position:relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+.whiteBrackets::before{
+  top: 0;
+  left: 0;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+.whiteBrackets::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.whiteBrackets::before,
+.whiteBrackets::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.orangeBrackets::before{
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.orangeBrackets::after{
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+.orangeBrackets::before,
+.orangeBrackets::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.orangeBrackets{
+  margin: 0 auto;
+  position:relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 25px 30px;
+  box-sizing: border-box;
+}
+
+
+　
+/* header brgin */
+header a {
+  /* margin: auto 0; */
+  margin-left: 38%;
+}
+
+header h1 {
+  margin-left: 120px;
+}
+
+header p {
+  padding: 24px;
+  margin-bottom: 0;
+  flex: 0.9;
+}
+
+#headTalk{
+  background-color: #F7228C;
+  font-size: 15px;
+  height: 45px;
+  width: 252px;
+  border-radius: 32px;
+  padding-top: 17px;
+  padding-left: 23px;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+.head{
+  display: flex;
+  width: 100%;
+  margin: auto 0;
+  position:fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+/* header end */
+/* <!-- main begin --> */
+main {
+  background-image: url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?cs=srgb&dl=adult-chair-company-380769.jpg&fm=jpg");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  height: 550px;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+#page1 img {
+  height:200px;
+  width: 200px;
+}
+
+/* <!--page2-begin-- */
+
+#back-color{
+  background-color: #ff9f43;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 2%;
+  height:600px;
+}
+
+
+#price{
+color: red;
+background-color: #fff;
+width:52%;
+margin: 2% 22% 7%;
+
+}
+#material{
+  background-color: red;
+  padding: 3% 27%;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+}
+#page2forfoot{
+  margin-top: 8%;
+}
+#page2forfoot p{
+  margin-top: 3%;
+}
+/* <!--page2-end-- */
+/* <!--page3-begin-- */
+#page3 {
+  height: 400px;
+  text-align: center;
+}
+#page3 h1{
+  margin:70px auto;
+  font-size: 30px;
+}
+
+.page3font{
+  font-size: 20px;
+}
+.page3font b {
+  border-bottom:4px solid #ebb94d;
+}
+
+#aboutIcon{
+  background: url("https://images.pexels.com/photos/2108374/pexels-photo-2108374.jpeg?cs=srgb&dl=boulders-cascade-daylight-2108374.jpg&fm=jpg");
+  background-repeat:repeat;
+  height: 150px;
+}
+
+#aboutIcon p {
+  font-size: 20px;
+  border-radius: 50%;
+  position: relative;
+  top:55px;
+  left: calc(50% - 50px);
+  width: 7%;
+  height: 86px;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  padding: 25px 0 0 21px;
+  background-color: #ff9f43;
+  color: #fff;
+}
+
+
+/* <!--page3-end-- */
+/* <!--page4-begin-- */
+#page4{
+  background-color: #fef5e0;
+  height: 450px;
+  text-align: center;
+  padding-top: 50px;
+  padding-top: 100px;
+  height: 580px;
+}
+#page4 h1{
+  margin-top: 0;
+}
+#page4Color {　　
+  padding-top: 50px;
+}
+.page4font{
+  font-size: 20px;
+}
+
+#skill {
+  background-color: #fff;
+  border:3px  #fad390 solid;
+  padding: 3%;
+  margin-top: 8%;
+}
+
+#skill ul {
+  display: flex;
+  list-style-type: none;
+}
+#skill  li {
+  margin-right: 4%;
+  font-size: 12px;
+}
+
+
+/* <!--page4-end-- */
+/* <!--page5-begin-- */
+#page5{
+  width: 100%;
+text-align: center;
+ background-image: url("https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?cs=srgb&dl=bright-daylight-environment-240040.jpg&fm=jpg");
+ background-repeat:no-repeat;
+ color: #fff;
+ height: 380px;
+ padding-top: 3%;
+}
+#page5 b{
+  color:#E2B483;
+}
+#page5Font{
+  font-size: 20px;
+}
+#page5Font p {
+  margin: 3% auto;
+}
+
+.threeStep {
+  width: 100%;
+  display: flex;
+  color: black;
+  height: 150px;
+}
+.step {
+    margin: 0 1%;
+    background: #fff;
+    width: 32%;
+    border-radius: 10px;
+}
+.justStep{
+  color: #fff;
+  background-color: #E2B483;
+  margin: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.myFoot{
+  background-color: #1e3799;
+  text-align: center;
+  color: #f5f6fa;
+  height: 116px;
+  padding-top: 40px;
+}
+.myFoot p{
+  margin-top: 0;
+  font-size:22px;
+}
+.myFoot b{
+  color: #E2B483;
+}
+/* <!--page5-end-- */
+/* <!--page6-begin-- */
+#page6{
+  text-align: center;
+  height: 400px;
+}
+#page6Font p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.round-icon1{
+      background-color: #E2B483;
+      width: 18%;
+      height: 140px;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0px 2%;
+      color: #fff;
+      font-size: 20px;
+      padding: 10px;
+      padding-top: 40px;
+      margin-bottom: 35px;
+}
+.round-icon1 p{
+  margin: 0;
+}
+
+.roundFlex{
+  width: 100%;
+  display: flex;
+}
+#page6 b {
+  margin-top: 20px;
+}
+
+/* <!--page6-end-- */
+/* <!--page7-begin--> */
+
+#page7{
+  background-color: #ffeaa7;
+  text-align: center;
+  height: 1000px;
+  padding-top: 3%;
+}
+.meritBox{
+  display: flex;
+  margin: 5% 0 13% 0;
+}
+.merit {
+  width: 40%;
+  height: 284px;
+  margin-left: 13px;
+}
+.merit img {
+  width: 300px;
+  height: 170px;
+}
+.support{
+  background-color:#fff;
+  border:#E2B483 3px solid;
+  padding: 20px;
+}
+.enhance{
+  color: #E2B483;
+}
+
+#bottomZero{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 45px;
+}
+
+/* <!--page7-end--> */
+/* <!--page8-begin--> */
+
+#page8Move{
+  padding-top: 8%;
+}
+
+.avator{
+      width: 15em;
+      border-radius: 50%;
+      position: relative;
+      top: -135px;
+      left: calc(15% - 50px);
+      height: 210px;
+}
+
+#page8{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1325766/pexels-photo-1325766.jpeg?cs=srgb&dl=discussion-diversity-indoors-1325766.jpg&fm=jpg");
+  background-position: center;
+  background-size: cover;
+  height: 1550px;
+}
+#page8 h1{
+  margin-top: 0;
+}
+
+.moveTeacher{
+  margin-top: 15%;
+  display: flex;
+}
+
+.teacher{
+  width: 50%;
+  border: #E2B483 2px solid;
+  margin-left: 35px;
+}
+.page8Text{
+  width: 230px;
+  margin: auto;
+}
+.page8-foot{
+  background-color: #E2B483;
+  text-align: center;
+}
+.page8-foot h1{
+  color: #fff;
+}
+.page8-foot p{
+  width: 8%;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #E2B483;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+
+}
+/* <!--page8-end--> */
+/* <!--page9-begin--> */
+#page9{
+  width: 60%;
+  margin: 0 auto;
+}
+#comment{
+  text-align: center;
+
+}
+.cliant{
+  display: flex;
+}
+.comment2{
+  width:50%;
+}
+/* <!--page9-end--> */
+/* <!--page10-begin--> */
+
+#page10{
+  background-image: url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?cs=srgb&dl=adult-chair-company-380769.jpg&fm=jpg");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  height: 850px;
+  padding-top: 50px;
+  text-align: center;
+}
+#page10 h1 p {
+  color: white;
+}
+
+.blueSky{
+  background-color: skyblue;
+  color: #fff;
+}
+.forBorder{
+    margin-left: 33px;
+      margin-top: 20px;
+}
+
+.formContainer{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.forBorder table {
+  width:350px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+.forBorder th{
+  border-radius: 10px;
+
+}
+
+.forBorder  tr {
+  height: 50px;
+
+}
+
+/* <!--page10-end--> */
+/* <!--page11-begin--> */
+.page11{
+  width: 80%;
+  margin: 0 auto;
+}
+.page11 h1{
+  text-align: center;
+}
+.FloatOfClass{
+  display: flex;
+  color:  #fff;
+}
+.round-icon{
+  background-color: #E2B483;
+  width: 40%;
+  height: 140px;
+  border-radius: 50%;
+  text-align: center;
+}
+.round-icon p{
+  /* margin: auto 0; */
+}
+.FloatOfClass.orangeMark {
+  color: #E2B483;
+}
+.floatBox{
+  background-color: #ffeaa7;
+}
+/* <!--page11-end--> */
+/* <!--page12-begin--> */
+/* <!--page12-end--> */
+
+/* <!--page13-begin--> */
+
+.page13 h1{
+  /* margin-top: 60px; */
+}
+
+#moveFont1{
+  padding-top: 30px;
+}
+
+#justColor{
+  background-color: #f1c40f;
+}
+.allOfSpecial{
+  border: #fff 3px solid;
+  height: 400px;
+  margin: 100px;
+}
+.allOfSpecial h1{
+
+}
+.special{
+  background-color: #fff;
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.special p{
+  width: 200px;
+}
+.sepecialBox{
+  display: flex;
+
+}
+
+/* <!--page13-end--> */
+/* <!--page15-begin--> */
+#forText {
+  text-align: center;
+}
+#page15{
+      height: 550px;
+}
+#sideMessage{
+  margin-left: 40px;
+}
+.page15margin{
+  margin-top: 40px;
+  font-family: serif;
+}
+
+#forFlex{
+  display: flex;
+}
+.sideImage img{
+
+  width: 200px;
+  height: 150px;
+}
+/* <!--page15-end--> */
+/* <!--page16-begin--> */
+#page16{
+  background-color: #f1c40f;
+
+}
+#orangeBack{
+  height: 550px;
+  text-align: center;
+  padding-top: 30px;
+}
+.formEffect{
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-top:10px;
+}
+.submit input {
+  background-color: red;
+  color: #fff;
+}
+
+/* <!--page16-end--> */
+
+
+
+
+/* <!-- main end --> */
+.whiteColor{
+  color: #fff;
+}

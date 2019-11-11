@@ -1,0 +1,90 @@
+/* .labelG_S{
+    margin-left:10px;
+} */
+.wrapper{
+  padding-top: 80px;
+  background-color: rgba(59, 89, 152, 0.1);
+}
+.bigBorder{
+  border: 3px solid skyblue;
+}
+#title{
+  position: relative;
+  text-align: center;
+    top: -28px;
+    width: 40%;
+    left: 420px;
+    background-color: rgb(235, 238, 244);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: red;
+
+}
+#formEntire{
+  padding:50px;
+}
+.forH{
+  margin:5% auto;
+  color: #F3589E;
+}
+.forH h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+.ForFlex{
+  display: flex;
+  padding: 0 90px;
+}
+
+.forTitle{
+  flex:3;
+}
+.forPrefecture{
+  flex:1;
+}
+
+.forDescription{
+  flex:2;
+}
+.marginBetween{
+  margin:0 30px;
+}
+.formG_S{
+  flex: 2;
+  padding: 0 20px:
+}
+.labelWidth{
+  width: 85px;
+}
+
+.forCondition{
+  flex: 2;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.nameToSubmit{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.forWidth{
+  width: 400px;
+}
+
+.btn-success{
+  width: 200px;
+  margin: 30px 37%;
+}
+@media screen and (max-width:1190px) and (min-width:768px) {
+  #title{
+      width: 40%;
+      left: 240px;
+  }
+}
+@media screen and (max-width:768px){
+  #title{
+      width: 38%;
+      left: 180px;
+  }
+}
